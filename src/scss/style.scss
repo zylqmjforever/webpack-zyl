@@ -1,0 +1,13 @@
+.main{
+	transform:scale(1,1.2);
+	animation: spin 1s linear infinite alternate;
+	box-sizing: border-box;
+}
+@for $i from 1 through 10 {
+	.bg:nth-child(#{$i}){
+		background: url('../img/#{$i}.jpg') center no-repeat;
+	}
+}
+.file{
+	background: red;
+}

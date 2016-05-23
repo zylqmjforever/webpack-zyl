@@ -1,0 +1,32 @@
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px; }
+
+.file {
+  background: red; }
+
+h1 {
+  font-size: 24px;
+  width: 1000px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  height: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
+  background: red;
+  color: red;
+  background: url("../imgs/3.png") center; }
+  h1:span {
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: 10px; }
+
+body {
+  color: red;
+  font-size: 18px;
+  background: red; }
